@@ -577,6 +577,28 @@ header.shadow #search-icon{
     }
 }
 
+.cart {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+}
+
+.parts-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.parts-container > div {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
 
 
 
